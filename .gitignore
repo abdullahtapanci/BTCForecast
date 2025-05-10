@@ -1,0 +1,51 @@
+# Root-level
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === Go (backend/) ===
+/backend/bin/
+/backend/vendor/
+/backend/*.exe
+/backend/*.exe~
+/backend/*.dll
+/backend/*.so
+/backend/*.dylib
+/backend/*.test
+/backend/*.out
+/backend/go.sum
+/backend/go.mod
+
+# === React Native (btcForecastMobile/) ===
+/btcForecastMobile/node_modules/
+/btcForecastMobile/npm-debug.log*
+/btcForecastMobile/yarn-debug.log*
+/btcForecastMobile/yarn-error.log*
+
+/btcForecastMobile/android/.gradle/
+/btcForecastMobile/android/app/build/
+/btcForecastMobile/android/gradle/
+/btcForecastMobile/ios/build/
+/btcForecastMobile/ios/Pods/
+/btcForecastMobile/*.xcworkspace
+/btcForecastMobile/*.xcodeproj
+/btcForecastMobile/*.xcuserstate
+
+/btcForecastMobile/.expo/
+/btcForecastMobile/.expo-shared/
+/btcForecastMobile/*.expo
+/btcForecastMobile/*.packager-info
+/btcForecastMobile/*.watchmanconfig
+/btcForecastMobile/.hastecache/
+/btcForecastMobile/.buckconfig
+/btcForecastMobile/.flowconfig
